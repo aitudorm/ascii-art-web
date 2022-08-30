@@ -1,0 +1,209 @@
+/* Media queries */
+
+@media screen and (min-width: 950px) {
+   
+    .navigation > .centralZone > .alem-logo > .img {
+        margin-top: 10px;
+        height: 125px;       
+    }
+
+    
+
+    .navigation > .centralZone > .nav-bar {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .navigation > .rightZone > .adress {
+      font-size: 14px;
+    }
+
+    .about-page > .text {
+      font-size: 26px;
+      width: 25vw;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .authors-page > .abeke .abeke-text {
+    
+    font-size: 2em;
+}
+
+.authors-page > .abeke {
+   
+  margin-top: 2em;
+}
+
+.authors-page > .make {
+  margin-top: 2em;
+}
+
+.authors-page > .make .make-text {
+    
+  font-size: 2em;
+}
+  }
+
+@media screen and (max-width: 950px) {
+    .navigation > .leftZone > .tel-date {
+      font-size: 0.8em;
+    }
+    .navigation > .centralZone > .alem-logo > .img {
+        margin-top: 8px;
+        height: 115px;
+    }
+
+    .navigation > .centralZone > .nav-bar {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .navigation > .rightZone > .adress {
+      font-size: 12px;
+    }
+
+    .about-page > .text {
+      font-size: 25px;
+      width: 25vw;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .authors-page > .abeke .abeke-text {
+    
+    font-size: 1.8em;
+}
+
+.authors-page > .abeke {
+   
+  margin-top: 2em;
+}
+
+.authors-page > .make {
+  margin-top: 2em;
+}
+
+.authors-page > .make .make-text {
+    
+  font-size: 1.8em;
+}
+  }
+
+  @media screen and (max-width: 775px) {
+    .navigation > .leftZone > .tel-date {
+      font-size: 0.6em;
+    }
+    .navigation > .centralZone > .alem-logo > .img {
+        margin-top: 6px;
+        height: 80px;
+    }
+
+    .navigation > .centralZone > .nav-bar {
+      font-size: 15px;
+      font-weight: bold;
+    }  
+    .about-page > .text {
+      font-size: 20px;
+      width: 25vw;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+  } 
+  .authors-page > .abeke .abeke-text {
+    
+    font-size: 1.5em;
+}
+
+.authors-page > .abeke {
+   
+  margin-top: 2em;
+}
+
+.authors-page > .make {
+  margin-top: 2em;
+}
+
+.authors-page > .make .make-text {
+    
+  font-size: 1.5em;
+}
+  }
+
+  @media screen and (max-width: 600px) {
+    .navigation > .leftZone > .tel-date {
+      font-size: 0.4em;
+    }
+    .navigation > .rightZone > .adress {
+      font-size: 8px;
+    }
+    .about-page > .text {
+      font-size: 15px;
+      width: 25vw;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+  }
+   
+  .authors-page > .abeke .abeke-text {
+    
+    font-size: 1.2em;
+}
+
+.authors-page > .abeke {
+   
+  margin-top: 2.5em;
+}
+
+.authors-page > .make {
+  margin-top: 2.5em;
+}
+
+.authors-page > .make .make-text {
+    
+  font-size: 1.2em;
+}
+  
+  }
+
+  @media screen and (max-width: 400px) {
+    .navigation > .leftZone > .tel-date {
+      font-size: 0.3em;
+    }
+
+    .navigation > .rightZone > .adress {
+      font-size: 5px;
+    }
+
+    .about-page > .text {
+      font-size: 10px;
+      width: 25vw;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+.authors-page > .abeke .abeke-text {
+    
+    font-size: 0.9em;
+}
+
+.authors-page > .abeke {
+   
+  margin-top: 2em;
+}
+
+.authors-page > .make {
+  margin-top: 2em;
+}
+
+.authors-page > .make .make-text {
+    
+  font-size: 0.9em;
+}
+
+
+
+  
+}
+
+  

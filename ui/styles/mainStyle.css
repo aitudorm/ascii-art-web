@@ -1,0 +1,27 @@
+.navigation{
+    margin: 0ch;
+    width: auto;
+    background-color: #001f3f;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 20vh;
+    color: aliceblue; 
+    font-family: 'Roboto', sans-serif; 
+      
+    
+}
+
+.main-page{
+    height: 75vh;
+    width: auto;
+    background-color: orange; 
+    display: grid;
+}
+
+.footer {
+    margin: 0ch;
+    height: 4vh;
+    width: auto;
+    background-color: #001f3f;
+    display: grid;
+}

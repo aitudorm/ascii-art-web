@@ -1,0 +1,18 @@
+
+
+.about-page {
+    height: 75vh;
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+   
+    display: grid;
+    font-family: 'Rubik Maze', cursive;
+    
+}
+
+.about-page > .ascii-logo > .ascii{
+    height: 45vh;
+    width: 50vw;    
+}
+

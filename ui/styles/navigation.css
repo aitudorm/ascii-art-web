@@ -1,0 +1,99 @@
+/* Navigation left zone */
+
+
+.navigation > .leftZone{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 1em;
+    width: auto;    
+}
+
+.navigation > .leftZone > .tel-logo{
+    color: white;
+    align-self: center;
+    justify-self: end;
+}
+
+.navigation > .leftZone > .tel-date{
+    color: aliceblue;      
+    align-self: center;
+    justify-self: start;
+}
+
+
+
+  /* Navigation central zone */
+
+  .navigation > .centralZone {
+      height: 20vh;
+      display: grid;
+      grid-template-rows: 2fr 1fr;
+      justify-self: center;
+      
+      
+  }
+
+  .navigation > .centralZone > .alem-logo > .img {
+      border-radius: 50%;     
+               
+}
+
+.navigation > .centralZone > .alem-logo {
+    align-self: center;   
+    justify-self: center;            
+}
+
+.navigation > .centralZone > .nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-self: center;
+    
+    
+    
+}
+
+
+
+
+.navigation > .centralZone > .nav-bar > .home-bar > .home {
+  color: azure; 
+}
+
+.navigation > .centralZone > .nav-bar > .about-bar > .about {
+  color: azure; 
+}
+
+.navigation > .centralZone > .nav-bar > .authors-bar > .authors {
+  color: azure; 
+}
+
+
+
+
+
+
+
+/* Navigation right zone */
+
+.navigation > .rightZone {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+.navigation > .rightZone > .adress-logo {
+  display: grid;
+  justify-items: end;
+  align-items: center;
+}
+.navigation > .rightZone > .adress {
+  text-align: start;
+  justify-self: center;
+  align-self: center;
+}
+
+
+
+
+
+

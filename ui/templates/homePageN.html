@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9d52e2d13d.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="/ui/styles/mainStyle.css">
+    <link rel="stylesheet" href="/ui/styles/navigation.css">
+    <link rel="stylesheet" href="/ui/styles/mediaQueries.css">
+    <link rel="stylesheet" href="/ui/styles/homePageN.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Creepster&family=Hanalei&family=Lobster&family=Monoton&family=Press+Start+2P&family=Roboto:wght@100&family=Rubik+Distressed&family=Rubik+Maze&family=Tangerine:wght@700&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="leftZone">
+            <div class="tel-logo">
+                <i class="fa-solid fa-phone fa-1.8x"></i>
+            </div>
+            <div class="tel-date">
+                <div class="number">
+                    +7 708 747 46 15
+                </div>
+                <div class="date">
+                    August 2022
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="centralZone">
+            <div class="alem-logo">
+                <img class="img" src="/ui/icons/alemLogo.png" alt="alem logo">
+            </div>
+            <div class="nav-bar">
+                <div class="home-bar">
+                    <a class="home" href="/">Home</a>
+                </div>
+                <div class="about-bar">
+                    <a class="about" href="/about">About</a>
+                </div>
+                <div class="authors-bar">
+                    <a class="authors" href="/authors">Authors</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightZone">
+            <div class="adress-logo">
+                <i class="fa-solid fa-location-dot fa-2x"></i>
+            </div>
+            <div class="adress">
+                <div class="1st">
+                    Astana Hub
+                </div>
+                <div class="2nd">
+                    Alem 01
+                </div>
+                <div class="3rd">
+                    Mangilik El 57, Astana, Kazakhstan
+                </div>
+            </div>            
+           
+        </div>
+    </div>
+
+    <form method="post" action="ascii-art">
+        <div class="main-page">
+            <div class="text-area">
+               <div class="text-welcome">
+                   Ascii-Art
+               </div>
+               <div class="text-area-zone">
+                   <textarea class="text-area" placeholder="Text here" name="inputData" id="1"></textarea>
+               </div>
+            </div>
+            <div class="banner-zone">
+                <div class="banner-text">
+                    <div class="choose-text">
+                         Please choose your banner style
+                    </div>
+                    <div class="warn-message">
+                        if you do not choose banner type, it will not work
+                    </div>
+                </div>
+                <div class="banner-options">
+                    <div class="standard">
+                        <input type="radio" id="contactChoice1"
+                        name="banner" value="standard">
+                       <label for="contactChoice1">standard</label>
+                    </div>
+    
+                    <div class="shadow">
+                        <input type="radio" id="contactChoice2"
+                        name="banner" value="shadow">
+                       <label for="contactChoice2">shadow</label>
+                    </div>
+                  
+    
+                    <div class="thinkertoy">
+                        <input type="radio" id="contactChoice3"
+                        name="banner" value="thinkertoy">
+                       <label for="contactChoice3">thinkertoy</label>
+                    </div>       
+                            
+                </div>
+                <div class="button-zone">
+                    <div class="button-zone-h">
+                        <button class="button" type="submit" formaction="/ascii-art-web">Do it!</button>
+                    </div>    
+                  
+                   
+                </div>
+    
+            </div>
+           
+        </div>
+    </form>
+
+    
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>

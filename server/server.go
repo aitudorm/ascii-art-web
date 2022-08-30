@@ -17,7 +17,7 @@ func Server() {
 	mux.HandleFunc("/about", about)
 	mux.HandleFunc("/authors", authors)
 
-	fmt.Println("Starting the web server .... on http://localhost:5050")
-	err := http.ListenAndServe(":5050", mux)
-	log.Fatal(err)
+// 	fmt.Println("Starting the web server .... on http://localhost:5050")
+// 	err := http.ListenAndServe(":5050", mux)
+// 	log.Fatal(err)
 }
